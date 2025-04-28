@@ -101,7 +101,32 @@ The protocol combines:
 - [Solana Playground](https://beta.solpg.io/) (for initial development)
 
   ## 📄 License
-This project is licensed under the **MIT LICENSE**
+ This project is licensed under the **MIT LICENSE**
+
+---
+
+# 📈 Future Plans
+
+- Cross-DEX flash loan batching
+- Reward auto-compounding for stakers
+- Enhanced treasury management
+- Flash loan insurance vaults
+
+---
+
+# 🧠 Quick Reference
+
+| Function | Purpose |
+|:---------|:--------|
+| `initialize` | Deploy and configure the protocol. |
+| `stake` | Stake SOL and receive $FLSOL. |
+| `harvest` | Harvest flash loan rewards. |
+| `unstake` | Burn $FLSOL to withdraw SOL. |
+| `flash_loan` | Borrow $FLSOL temporarily and pay fees. |
+| `update_fees` | Admin: Adjust flash loan fee rates. |
+| `set_pause` | Admin: Pause or resume flash loans. |
+| `add_fee_tier` | Admin: Add dynamic fee tiers. |
+| `clear_fee_tiers` | Admin: Clear all dynamic fee tiers. |
 
 ---
 
