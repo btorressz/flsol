@@ -100,5 +100,8 @@ The protocol combines:
 - [Rust](https://www.rust-lang.org/)
 - [Solana Playground](https://beta.solpg.io/) (for initial development)
 
+  ## 📄 License
+This project is licensed under the **MIT LICENSE**
+
 ---
 
