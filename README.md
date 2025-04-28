@@ -2,7 +2,7 @@
 
 ## 📖 Overview
 
-**$FLSOL** is a next-generation DeFi infrastructure protocol deployed on Solana.  
+**$FLSOL** is a next-generation DeFi infrastructure protocol on Solana.  
 It allows users to stake SOL, mint liquid staking tokens ($FLSOL), and enables flash-loan contracts and bots to **flash borrow** $FLSOL for arbitrage, liquidation, and MEV extraction strategies.
 
 The protocol combines:
