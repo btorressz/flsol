@@ -45,3 +45,16 @@ The protocol combines:
   The protocol can pause flash loans temporarily in case of vulnerabilities or emergencies.
 
 ---
+
+## 🏗 How It Works
+
+| Action                  | Description |
+|:-------------------------|:------------|
+| **Stake SOL**             | Deposit SOL to mint $FLSOL at a 1:1 ratio. |
+| **Harvest**              | Claim accumulated flash loan fees without unstaking. |
+| **Unstake**               | Burn $FLSOL to redeem SOL plus accrued rewards. |
+| **Flash Loan**            | Borrow $FLSOL instantly for DeFi strategies; pay fee. |
+| **Cooldown and Limits**   | Cooldown slots and maximum loan sizes enforced automatically. |
+| **Treasury Fee Splitting**| Portion of flash loan fees sent to a treasury wallet. |
+
+---
