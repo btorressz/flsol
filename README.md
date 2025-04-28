@@ -16,6 +16,8 @@ The protocol combines:
 
   **THIS PROJECT IS CURRENTLY BEING DEVELOPED IN SOLANA PLAYGROUND IDE next version will be expanded to vscode**
 
+  **devnet**:(https://explorer.solana.com/address/3u9MdW6xRvP9XSVPqby3BBpH2SsH48hw2McDrnEUp3U8?cluster=devnet)
+
 ---
 
 ## ✨ Key Features
