@@ -58,3 +58,47 @@ The protocol combines:
 | **Treasury Fee Splitting**| Portion of flash loan fees sent to a treasury wallet. |
 
 ---
+
+
+## 📦 Program Accounts
+
+| Account | Purpose |
+|:--------|:--------|
+| **Config** | Stores program settings (fees, treasury, cooldown, etc.). |
+| **Vault** | PDA to store staked SOL and collected rewards. |
+| **FLSOL Mint** | Mint account for the liquid staking token ($FLSOL). |
+| **FlashRecord** | Tracks the last flash loan slot per user for cooldown enforcement. |
+
+---
+
+## ⚙️ Admin Controls
+
+- Update base flash loan fees.
+- Set treasury address and fee split percentage.
+- Set maximum flash loan amount.
+- Set flash loan cooldown period.
+- Pause/unpause the flash loan engine.
+- Configure dynamic fee tiers.
+
+---
+
+## 🛡 Security Considerations
+
+- ✅ PDA authority locking for vault and mint.
+- ✅ Cooldown periods mitigate flash loan replay risks.
+- ✅ Max flash loan caps reduce economic drain attack surfaces.
+- ✅ Emergency pause switch for instant risk mitigation.
+- ✅ Explicit callback verification during flash loan execution.
+- ✅ Fee split for protocol sustainability.
+
+---
+
+## 🛠 Built With
+
+- [Solana](https://solana.com/)
+- [Anchor Framework](https://book.anchor-lang.com/)
+- [Rust](https://www.rust-lang.org/)
+- [Solana Playground](https://beta.solpg.io/) (for initial development)
+
+---
+
